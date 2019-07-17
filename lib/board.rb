@@ -30,4 +30,8 @@ class Board
       end
   end
 
+  def turn_count
+    
+  end
+
 end
