@@ -35,7 +35,7 @@ class Board
   end
 
   def taken?(input)
-    
+
   end
 
 end
