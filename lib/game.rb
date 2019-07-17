@@ -18,8 +18,8 @@ class Game
   end
 
   def current_player
-    @board.turn_count % 2 
-    
+    @board.turn_count % 2
+
   end
 
 end
