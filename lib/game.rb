@@ -12,7 +12,7 @@ class Game
   ]
 
   def initialize(player_1, player_2, board)
-    
+
   end
 
 end
