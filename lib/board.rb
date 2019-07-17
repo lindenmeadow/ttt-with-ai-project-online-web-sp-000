@@ -22,7 +22,7 @@ class Board
   end
 
   def full?
-    cells.each do |character|  
+    cells.each do |character|
       if character == "X" || character == "O"
         true
       else
