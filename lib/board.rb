@@ -22,7 +22,12 @@ class Board
   end
 
   def full?
-    cells.all?{|character|  character == "X" || character == "O"}
+    cells.each do |character|  
+      if character == "X" || character == "O"
+        true
+      else
+        false
+      end
   end
 
 end
