@@ -25,4 +25,12 @@ class Game
 
   end
 
+  def won?
+
+  end
+
+  def draw?
+
+  end
+
 end
