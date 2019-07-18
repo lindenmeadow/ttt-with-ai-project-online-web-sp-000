@@ -26,11 +26,11 @@ class Game
   end
 
   def won?
-
+    
   end
 
   def draw?
-
+    @board.full?
   end
 
 end
