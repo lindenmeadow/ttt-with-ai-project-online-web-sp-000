@@ -26,7 +26,9 @@ class Game
   end
 
   def won?
+    WIN_COMBINATIONS.detect do |winner|
 
+    end
   end
 
   def draw?
