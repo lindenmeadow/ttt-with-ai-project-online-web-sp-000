@@ -35,4 +35,8 @@ class Game
     @board.full? && !won?
   end
 
+  def winner
+    
+  end
+
 end
